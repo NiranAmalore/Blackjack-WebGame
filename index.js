@@ -18,6 +18,7 @@ playerElement.textContent = player.name + ": $" + player.chips
 
 function startGame(){
     isAlive = true
+    hasBlackJack = false
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
     sum = firstCard + secondCard
